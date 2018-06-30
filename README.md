@@ -34,7 +34,7 @@ If a field is used as a unique identifier, it is preceeded by a pound sign (#). 
 
 ### Types
 A field can have a type. Since this spec was primarily written for MongoDB, the type conventions will look a little bit like JavaScript types. That means that primitive JS types (boolean, null, undefined, number, string, symbol and object) will all be written in lowercase letters, whereas everything else (Date, Map) will be written in Pascal case.  
-Generic types are modeled by putting the type variable in angle brackets behind the generic type. An array of numbers would look like *Array<number>*.
+Generic types are modeled by putting the type variable in angle brackets behind the generic type. An array of numbers would look like *Array\<number>*.
 
 ### References
 An entity can reference another entity by putting the unique identifier in one of its fields. This relationship is modeled by putting an asterisk(\*) after the type and by connecting the two models with a generic connector.
